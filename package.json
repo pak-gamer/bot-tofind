@@ -4,8 +4,9 @@
   "description": "A bot, which display info about Weku accounts in Discord.",
   "main": "bot.js",
   "scripts": {
-    "test": "mocha",
-    "start": "node deploy.js && node bot.js"
+    "test": "NODE_ENV=test NODE_PATH=$PWD mocha",
+    "start": "NODE_ENV=prod NODE_PATH=$PWD node bot.js",
+    "postinstall": "npm update && node deploy.js"
   },
   "repository": {
     "type": "git",
@@ -18,11 +19,11 @@
   "author": "Serhiy Walker <zavzyat@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.4.2",
     "@steemit/steem-js": "^0.7.2",
-    "sprintf-js": "^1.1.1",
+    "discord.js": "^11.4.2",
+    "moment": "^2.23.0",
     "numeral": "^2.0.6",
-    "moment": "^2.22.2"
+    "sprintf-js": "^1.1.2"
   },
   "devDependencies": {
     "mocha": "^5.2.0",
