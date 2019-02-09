@@ -2,5 +2,5 @@
   "info": "<@%s> To receive info about Weku account, just type in `%s(username)`.",
   "systemError": "<@%s> :scream: Oh My God, Bot has Found New Bug. Can you please try again after sometimes, I will be Call @Admin for fix this.",
   "accountNotFound": "<@%s> We couldn't find specified account at Weku platform, do you put the right username?",
-  "accountInfo": "<@%s> Account Info\n\tUsername: @%s\n\tReputation: %s\n\tEffective Power: %s\n\tDetails Power: %s + %s - %s\n\tVoting Power: %s%%\n\tLast Voted Time: %s\n\tWEKU: %s\n\tWKD: %s\n\tAccount Age: %s.👬Provider-WC",
+  "accountInfo": "<@%s> Account Info\n\tUsername: @%s\n\tReputation: %s\n\tEffective Power: %s\n\tDetails Power: %s + %s - %s\n\tVoting Power: %s%%\n\tLast Voted Time: %s\n\tWEKU: %s\n\tWKD: %s\n\tAccount Age: %s.👬"
 }
