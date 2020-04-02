@@ -19,9 +19,9 @@ class Adapter {
     }
 
     reconnect() {
-        this.connection.api.setOptions({ url: `wss://standby.weku.io:8190` });
+        this.connection.api.setOptions({ url: `https://api.hive.blog/` });
         this.connection.config.set(`address_prefix`, `WKA`);
-        this.connection.config.set(`chain_id`, `b24e09256ee14bab6d58bfa3a4e47b0474a73ef4d6c47eeea007848195fa085e`);
+        this.connection.config.set(`chain_id`, `8b9f9fb1-5832-42cf-bda1-66556745f717`);
     }
 
     async processAccountDetails(username, callback, notFoundCallback) {
