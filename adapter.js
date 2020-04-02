@@ -4,7 +4,7 @@ let sprintf = require(`sprintf-js`).sprintf
 
 class Adapter {
     constructor() {
-        this.name = `weku`;
+        this.name = `hive`;
 
         this.connection = require(`@steemit/steem-js`);
         this.reconnect();
